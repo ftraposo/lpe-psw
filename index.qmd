@@ -1,0 +1,239 @@
+---
+description: "An early career workshop bringing together political economy and political science researchers across London."
+---
+
+```{=html}
+<header class="site-header">
+  <div class="wrap">
+    <a href="#top" class="brand">LPE<span>·</span>PSW</a>
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#themes">Themes</a>
+      <a href="#cfp">Call for Papers</a>
+      <a href="#dates">Key Dates</a>
+      <a href="#venue">Venue</a>
+      <a href="#organizers">Organizers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow on-ink">Early Career Workshop</span>
+      <h1>London Political Economy &amp; Political Science <em>Early Career Workshop</em></h1>
+      <p class="lede">A one-day workshop bringing together early career researchers working across political economy and political science, hosted by institutions across London.</p>
+
+      <div class="hero-meta">
+        <div><span>Date</span><strong class="placeholder">[Workshop date — e.g. 12 December 2026]</strong></div>
+        <div><span>Venue</span><strong class="placeholder">[Venue — e.g. LSE, Houghton Street, London]</strong></div>
+        <div><span>Submission deadline</span><strong class="placeholder">[Deadline — e.g. 3 October 2026]</strong></div>
+        <div><span>Format</span><strong>In person</strong></div>
+      </div>
+
+      <div class="btn-row">
+        <a href="#cfp" class="btn btn-primary">Read the Call for Papers</a>
+        <a href="#contact" class="btn btn-ghost">Contact organizers</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about">
+    <div class="wrap two-col">
+      <div>
+        <span class="eyebrow">About the workshop</span>
+        <h2>A venue for work in progress</h2>
+      </div>
+      <div>
+        <p class="about-lead">The workshop gives PhD candidates and early career researchers a focused, low-stakes setting to present ongoing work and receive detailed feedback.</p>
+        <p class="body-text placeholder">[Placeholder: describe the workshop's origin, its aims, and what makes it distinctive — e.g. its focus on empirical political economy, its cross-institutional format, or its emphasis on methods discussion. Replace this paragraph with your own text.]</p>
+        <p class="body-text placeholder" style="margin-top:16px;">[Placeholder: note who the workshop is for — e.g. PhD students and postdocs within a certain number of years of their viva/defense, across LSE, UCL, King's, Oxford, Cambridge, and other London-area or UK institutions.]</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THEMES ============ -->
+  <section id="themes" class="section-tight">
+    <div class="wrap">
+      <span class="eyebrow">Scope</span>
+      <h2>Topics we welcome</h2>
+      <p class="body-text">The workshop welcomes theoretical, empirical, and methodological contributions. Suggested themes below — edit freely to match this year's focus.</p>
+
+      <div class="theme-grid">
+        <div class="theme-card">
+          <span class="num">01</span>
+          <h3>Political behavior</h3>
+          <p>Public opinion, voting behavior, and the drivers of political attitudes.</p>
+        </div>
+        <div class="theme-card">
+          <span class="num">02</span>
+          <h3>Governance &amp; accountability</h3>
+          <p>Institutions, corruption, transparency, and state capacity.</p>
+        </div>
+        <div class="theme-card">
+          <span class="num">03</span>
+          <h3>Comparative political economy</h3>
+          <p>Redistribution, inequality, and the politics of economic policy.</p>
+        </div>
+        <div class="theme-card">
+          <span class="num">04</span>
+          <h3>Development &amp; conflict</h3>
+          <p>Political and economic development, state-building, and conflict.</p>
+        </div>
+        <div class="theme-card">
+          <span class="num">05</span>
+          <h3>Experimental &amp; causal methods</h3>
+          <p>Field, survey, and lab experiments; identification strategies.</p>
+        </div>
+        <div class="theme-card">
+          <span class="num">06</span>
+          <h3>Political institutions</h3>
+          <p>Legislatures, electoral systems, and the design of democratic institutions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CALL FOR PAPERS ============ -->
+  <section id="cfp" class="cfp">
+    <div class="wrap">
+      <span class="eyebrow on-ink">Call for Papers</span>
+      <h2>Submit your work</h2>
+      <p class="body-text placeholder">[Placeholder: one or two sentences on what kind of papers you're looking for — completed papers, works in progress, pre-registrations, or extended abstracts.]</p>
+
+      <div class="cfp-grid">
+        <ul class="cfp-list">
+          <li><span class="mark">01</span> Submit an extended abstract (500–1000 words) or a full draft paper.</li>
+          <li><span class="mark">02</span> Open to PhD candidates and researchers within <span class="placeholder">[X years]</span> of completing their PhD.</li>
+          <li><span class="mark">03</span> A limited number of travel bursaries are available — see submission form.</li>
+          <li><span class="mark">04</span> Each accepted paper is assigned a discussant and allocated <span class="placeholder">[e.g. 45 minutes]</span> for presentation and discussion.</li>
+        </ul>
+
+        <div class="cfp-card">
+          <h3>How to submit</h3>
+          <ul>
+            <li>Anonymized PDF (no author names in file or metadata)</li>
+            <li>Cover email with author(s), affiliation, and abstract</li>
+            <li>One submission per author as lead presenter</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary" style="width:100%; justify-content:center;">Submit a paper</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KEY DATES (signature ledger element) ============ -->
+  <section id="dates">
+    <div class="wrap">
+      <span class="eyebrow">Timeline</span>
+      <h2>Key dates</h2>
+      <p class="body-text">Mark your calendar — dates below are placeholders until confirmed.</p>
+
+      <div class="ruler">
+        <div class="ruler-line"></div>
+        <div class="ruler-track">
+          <div class="ruler-item">
+            <span class="date placeholder">[1 Sep 2026]</span>
+            <h4>Call opens</h4>
+            <p>Submission portal opens for abstracts and papers.</p>
+          </div>
+          <div class="ruler-item">
+            <span class="date placeholder">[3 Oct 2026]</span>
+            <h4>Submission deadline</h4>
+            <p>Deadline for abstract or paper submissions.</p>
+          </div>
+          <div class="ruler-item">
+            <span class="date placeholder">[31 Oct 2026]</span>
+            <h4>Notifications sent</h4>
+            <p>Authors notified of acceptance decisions.</p>
+          </div>
+          <div class="ruler-item">
+            <span class="date placeholder">[12 Dec 2026]</span>
+            <h4>Workshop day</h4>
+            <p>Full-day program with presentations and discussion.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VENUE ============ -->
+  <section id="venue" class="section-tight">
+    <div class="wrap">
+      <span class="eyebrow">Location</span>
+      <h2>Venue</h2>
+      <div class="venue-box">
+        <div>
+          <h3 class="placeholder">[Venue name, e.g. LSE — 32 Lincoln's Inn Fields]</h3>
+          <p class="placeholder">[Full address]</p>
+          <p class="placeholder">[Nearest stations / travel notes]</p>
+        </div>
+        <div>
+          <h3>Getting there</h3>
+          <p class="placeholder">[Placeholder: transport notes, accessibility information, and a link to a map once the venue is confirmed.]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ORGANIZERS ============ -->
+  <section id="organizers">
+    <div class="wrap">
+      <span class="eyebrow">Committee</span>
+      <h2>Organizers</h2>
+      <div class="card-grid">
+        <div class="person-card">
+          <div class="avatar">A</div>
+          <h4 class="placeholder">[Name]</h4>
+          <p class="placeholder">[Institution, department]</p>
+        </div>
+        <div class="person-card">
+          <div class="avatar">B</div>
+          <h4 class="placeholder">[Name]</h4>
+          <p class="placeholder">[Institution, department]</p>
+        </div>
+        <div class="person-card">
+          <div class="avatar">C</div>
+          <h4 class="placeholder">[Name]</h4>
+          <p class="placeholder">[Institution, department]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <span class="brand">LPE·PSW</span>
+        <p>London Political Economy &amp; Political Science Early Career Workshop. An annual gathering for early career researchers across London's political science and political economy community.</p>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:placeholder@example.ac.uk" class="placeholder">[organizers@email.ac.uk]</a></li>
+          <li><a href="#" class="placeholder">[Twitter / X handle]</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Links</h5>
+        <ul>
+          <li><a href="#cfp">Call for Papers</a></li>
+          <li><a href="#dates">Key dates</a></li>
+          <li><a href="#" class="placeholder">[Past editions]</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="placeholder">[2026]</span> LPE·PSW</span>
+      <span>Built for GitHub Pages</span>
+    </div>
+  </div>
+</footer>
+```

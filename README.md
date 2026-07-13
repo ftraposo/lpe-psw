@@ -1,17 +1,18 @@
 # London Political Economy & Political Science Early Career Workshop
 
-A single-page website for the workshop, ready to deploy on GitHub Pages.
+A Quarto version of the workshop site — same design and content as the static HTML build, but managed as a Quarto project so you get `quarto render` / `quarto publish` for free, with an easy upgrade path if you ever want multiple pages (e.g. a "Past Editions" page) or R/Python-driven content later.
 
 ## Files
 
-- `index.html` — the page content
-- `style.css` — all styling
+- `index.qmd` — the page content (same sections as before: hero, about, themes, CFP, key dates, venue, organizers, footer)
+- `style.css` — all styling, unchanged from the original
+- `_quarto.yml` — project config. Notably sets `theme: none` so Quarto's default Bootstrap styling is disabled and your custom CSS renders exactly as designed.
 
 ## Editing content
 
-Every placeholder is wrapped in `[square brackets]` and highlighted in green so it's easy to find. Search the HTML file for `placeholder` or just look for `[...]` text and replace with real content:
+Same as before — every placeholder is wrapped in `[square brackets]` and highlighted in green. Open `index.qmd` and search for `placeholder` or `[...]` to find them:
 
-- Date, venue, and submission deadline (in the hero section)
+- Date, venue, and submission deadline (hero section)
 - About text (two paragraphs)
 - Call for Papers copy and submission rules
 - Key dates timeline (4 milestones)
@@ -20,28 +21,53 @@ Every placeholder is wrapped in `[square brackets]` and highlighted in green so 
 - Contact email and social links
 - Footer year
 
+The content sits inside a single fenced raw-HTML block (` ```{=html} ... ``` `) in `index.qmd`, so you're editing plain HTML exactly as before — Quarto just leaves it untouched and drops it straight into the page.
+
+## Working locally
+
+1. [Install Quarto](https://quarto.org/docs/get-started/) (or `pip install quarto-cli`, which installs the same CLI).
+2. From the project folder, preview with live reload:
+   ```bash
+   quarto preview
+   ```
+3. Build the static site into `docs/`:
+   ```bash
+   quarto render
+   ```
+   This is the folder GitHub Pages will serve from — see below.
+
 ## Deploying to GitHub Pages
 
+**Option A — serve the `docs/` folder (simplest, matches original setup)**
+
 1. Create a new repository on GitHub (e.g. `lpe-psw`).
-2. Upload `index.html` and `style.css` to the root of the repository (drag-and-drop on the GitHub web UI works fine, or use git):
+2. Push the whole project, including the rendered `docs/` folder:
    ```bash
    git init
-   git add index.html style.css
-   git commit -m "Initial workshop site"
+   git add .
+   git commit -m "Initial Quarto workshop site"
    git branch -M main
    git remote add origin https://github.com/<your-username>/<repo-name>.git
    git push -u origin main
    ```
 3. In the repository, go to **Settings → Pages**.
-4. Under "Build and deployment", set **Source** to "Deploy from a branch", choose the **main** branch and **/ (root)** folder, then save.
-5. GitHub will publish the site at `https://<your-username>.github.io/<repo-name>/` within a minute or two.
+4. Under "Build and deployment", set **Source** to "Deploy from a branch", choose the **main** branch and **/docs** folder, then save.
+5. Whenever you edit `index.qmd`, run `quarto render` again, commit the updated `docs/` folder, and push.
+
+**Option B — `quarto publish` (no manual render/commit step)**
+
+```bash
+quarto publish gh-pages
+```
+
+This renders the site and pushes it straight to a `gh-pages` branch, then you point GitHub Pages at that branch instead of `docs/`. Re-run the same command whenever you update the content.
 
 ### Optional: custom domain
 
-If you have a domain (e.g. from your institution or a registrar), add a `CNAME` file to the repo root containing just the domain name, and configure your DNS provider to point to GitHub Pages (an `A` record to GitHub's IPs, or a `CNAME` record if using a subdomain). GitHub's own docs walk through this under Settings → Pages → Custom domain.
+Same as before — add a `CNAME` file to the repo root (or to `docs/` if serving from that folder) containing just the domain name, and point your DNS at GitHub Pages.
 
 ## Design notes
 
-- Fonts: Fraunces (display), Inter (body), IBM Plex Mono (dates/labels) — loaded from Google Fonts via CDN, no build step needed.
+- Fonts: Fraunces (display), Inter (body), IBM Plex Mono (dates/labels) — loaded from Google Fonts via CDN, injected through `include-in-header` in `_quarto.yml`.
 - Colors and type live as CSS variables at the top of `style.css` (`:root`) if you want to adjust the palette.
-- Fully static — no build tools, frameworks, or dependencies required.
+- `theme: none` in `_quarto.yml` is what keeps Quarto from injecting Bootstrap and its own typography — don't remove it unless you want to redesign around Bootstrap instead.
