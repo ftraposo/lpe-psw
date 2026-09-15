@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "LPE·PSW"
+  title: "PEPS·EC"
   site-url: ""
-  description: "An early career workshop bringing together political economy and political science researchers across London."
+  description: "An early career workshop bringing together political economy and political science researchers, jointly hosted by LSE, UCL, and Cambridge."
   page-navigation: false
   sidebar: false
 
