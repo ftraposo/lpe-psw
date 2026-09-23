@@ -297,12 +297,12 @@ description: "An early career workshop bringing together political economy and p
         <div class="person-card">
           <div class="avatar">F</div>
           <h4>Felipe Torres-Raposo</h4>
-          <p>LSE</p>
+          <p>UCL</p>
         </div>
         <div class="person-card">
-          <div class="avatar">?</div>
-          <h4 class="placeholder">[Name]</h4>
-          <p class="placeholder">[UCL — Institution, department]</p>
+          <img class="avatar-photo" src="images/Profile_2.jpeg" alt="Felipe Torres-Raposo">
+          <h4 class="placeholder">Felipe Torres-Raposo</h4>
+          <p class="placeholder">[UCL — Department of Political Science]</p>
         </div>
         <div class="person-card">
           <div class="avatar">?</div>
