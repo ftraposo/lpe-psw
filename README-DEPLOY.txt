@@ -1,26 +1,21 @@
 HOW TO DEPLOY
 =============
 
-This zip has two folders:
+docs/         -> replace everything in your repo's docs/ folder with this
+                 (index.html, style.css, search.json, sitemap.xml,
+                 robots.txt, site_libs/).
 
-1) docs/         <- THIS is what goes in your GitHub repo's docs/ folder.
-                     Delete everything currently inside your repo's docs/
-                     folder, then drag in everything from this docs/ folder
-                     (index.html, style.css, search.json, sitemap.xml,
-                     robots.txt, site_libs/).
+                 IMPORTANT: also copy your existing images/ folder into
+                 this docs/ folder before committing — it's not included
+                 here since it was never uploaded to me.
 
-   IMPORTANT: this docs/ folder does NOT include your images/ folder
-   (organizer photos, event photos, programme PDF) because those files
-   were never uploaded to me. Before you commit, also copy your existing
-   images/ folder (from your current repo) into this docs/ folder, so the
-   final docs/ contains: index.html, style.css, search.json, sitemap.xml,
-   robots.txt, site_libs/, AND images/.
+site-source/  -> index.qmd, style.css, _quarto.yml — keep these at your
+                 repo root (outside docs/) for future edits + `quarto render`.
 
-2) site-source/  <- These are the editable source files (index.qmd,
-                     style.css, _quarto.yml). Keep these at the root of
-                     your repo (outside docs/) so future edits + `quarto
-                     render` continue to work. They just document what
-                     produced the docs/ folder above.
-
-After committing to main, check the Actions tab for the Pages deployment,
-then hard-refresh the live page.
+WHAT CHANGED THIS ROUND
+========================
+- The 3 hero-side photos are now a carousel (prev/next arrows + dots)
+  instead of a cropped fixed-height grid — images show at their natural
+  size/aspect ratio, one at a time.
+- Removed the duplicate photo gallery that used to sit below the Past
+  Edition programme list (same 3 photos were showing twice on the page).

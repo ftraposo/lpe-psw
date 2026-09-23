@@ -100,13 +100,42 @@ ul.task-list li input[type="checkbox"] {
         </div>
       </div>
 
-      <div class="hero-photos">
-        <img src="images/edition1-photo1.jpg" alt="Presentation at the first edition of the workshop">
-        <img src="images/edition1-photo2.jpg" alt="Discussion during a paper session at the first edition">
-        <img src="images/edition1-photo3.jpg" alt="Speaker presenting research at the first edition">
+      <div class="hero-carousel" id="heroCarousel">
+        <div class="hero-carousel-track">
+          <img src="images/edition1-photo1.jpg" alt="Presentation at the first edition of the workshop">
+          <img src="images/edition1-photo2.jpg" alt="Discussion during a paper session at the first edition">
+          <img src="images/edition1-photo3.jpg" alt="Speaker presenting research at the first edition">
+        </div>
+        <button class="carousel-btn prev" onclick="heroCarouselMove(-1)" aria-label="Previous photo">‹</button>
+        <button class="carousel-btn next" onclick="heroCarouselMove(1)" aria-label="Next photo">›</button>
+        <div class="carousel-dots">
+          <span class="dot active" onclick="heroCarouselGoTo(0)"></span>
+          <span class="dot" onclick="heroCarouselGoTo(1)"></span>
+          <span class="dot" onclick="heroCarouselGoTo(2)"></span>
+        </div>
       </div>
     </div>
   </section>
+
+  <script>
+    let heroCarouselIndex = 0;
+    function heroCarouselUpdate() {
+      var track = document.querySelector('#heroCarousel .hero-carousel-track');
+      track.style.transform = 'translateX(-' + (heroCarouselIndex * 100) + '%)';
+      document.querySelectorAll('#heroCarousel .dot').forEach(function(d, i) {
+        d.classList.toggle('active', i === heroCarouselIndex);
+      });
+    }
+    function heroCarouselMove(dir) {
+      var imgs = document.querySelectorAll('#heroCarousel img');
+      heroCarouselIndex = (heroCarouselIndex + dir + imgs.length) % imgs.length;
+      heroCarouselUpdate();
+    }
+    function heroCarouselGoTo(i) {
+      heroCarouselIndex = i;
+      heroCarouselUpdate();
+    }
+  </script>
 
   <!-- ============ ABOUT ============ -->
   <section id="about">
@@ -312,12 +341,6 @@ ul.task-list li input[type="checkbox"] {
           </div>
         </li>
       </ul>
-
-      <div class="gallery-grid">
-        <img src="images/edition1-photo1.jpg" alt="Presentation at the first edition of the workshop">
-        <img src="images/edition1-photo2.jpg" alt="Discussion during a paper session at the first edition">
-        <img src="images/edition1-photo3.jpg" alt="Speaker presenting research at the first edition">
-      </div>
     </div>
   </section>
 
