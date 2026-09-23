@@ -26,7 +26,7 @@ description: "An early career workshop bringing together political economy and p
     <div class="wrap">
       <span class="eyebrow on-ink">Second Edition &middot; Early Career Workshop</span>
       <h1>Political Economy &amp; Political Science <em>Early Career Workshop</em></h1>
-      <p class="lede">A one-day workshop bringing together early career researchers working across political economy and political science — now jointly hosted by LSE, UCL, and Cambridge.</p>
+      <p class="lede">A one-day workshop bringing together early career researchers working across political economy and political science — now jointly hosted by LSE, UCL, and Cambridge. We intend to run the workshop in the second term of next year, and are currently in the process of securing funding — keep your eyes peeled for updates. If you'd like to be notified once details are confirmed, please <a href="mailto:f.torres-raposo@ucl.ac.uk?subject=Early%20Career%20Workshop">contact us</a>.</p>
 
       <div class="host-row">
         <span class="host-chip">LSE</span>
