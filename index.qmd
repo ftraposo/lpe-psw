@@ -23,28 +23,36 @@ description: "An early career workshop bringing together political economy and p
 
   <!-- ============ HERO ============ -->
   <section class="hero">
-    <div class="wrap">
-      <span class="eyebrow on-ink">Second Edition &middot; Early Career Workshop</span>
-      <h1>Political Economy &amp; Political Science <em>Early Career Workshop</em></h1>
-      <p class="lede">A one-day workshop bringing together early career researchers working across political economy and political science — now jointly hosted by LSE, UCL, and Cambridge. We intend to run the workshop in the second term of next year, and are currently in the process of securing funding — keep your eyes peeled for updates. If you'd like to be notified once details are confirmed, please <a href="mailto:f.torres-raposo@ucl.ac.uk?subject=Early%20Career%20Workshop">contact us</a>.</p>
+    <div class="wrap hero-grid">
+      <div class="hero-content">
+        <span class="eyebrow on-ink">Second Edition &middot; Early Career Workshop</span>
+        <h1>Political Economy &amp; Political Science <em>Early Career Workshop</em></h1>
+        <p class="lede">A one-day workshop bringing together early career researchers working across political economy and political science — now jointly hosted by LSE, UCL, and Cambridge. We intend to run the workshop in the second term of next year, and are currently in the process of securing funding — keep your eyes peeled for updates. If you'd like to be notified once details are confirmed, please <a href="mailto:f.torres-raposo@ucl.ac.uk?subject=Early%20Career%20Workshop">contact us</a>.</p>
 
-      <div class="host-row">
-        <span class="host-chip">LSE</span>
-        <span class="host-chip">UCL</span>
-        <span class="host-chip">Cambridge</span>
+        <div class="host-row">
+          <span class="host-chip">LSE</span>
+          <span class="host-chip">UCL</span>
+          <span class="host-chip">Cambridge</span>
+        </div>
+
+        <div class="hero-meta">
+          <div><span>Date</span><strong>TBA</strong></div>
+          <div><span>Venue</span><strong>TBA</strong></div>
+          <div><span>Submission deadline</span><strong>TBA</strong></div>
+          <div><span>Format</span><strong>In person</strong></div>
+        </div>
+
+        <div class="btn-row">
+          <a href="#cfp" class="btn btn-primary">Read the Call for Papers</a>
+          <a href="#past-edition" class="btn btn-ghost">See the first edition</a>
+          <a href="#contact" class="btn btn-ghost">Contact organizers</a>
+        </div>
       </div>
 
-      <div class="hero-meta">
-        <div><span>Date</span><strong class="placeholder">[Workshop date — e.g. 12 December 2026]</strong></div>
-        <div><span>Venue</span><strong class="placeholder">[Venue — e.g. LSE, Houghton Street, London]</strong></div>
-        <div><span>Submission deadline</span><strong class="placeholder">[Deadline — e.g. 3 October 2026]</strong></div>
-        <div><span>Format</span><strong>In person</strong></div>
-      </div>
-
-      <div class="btn-row">
-        <a href="#cfp" class="btn btn-primary">Read the Call for Papers</a>
-        <a href="#past-edition" class="btn btn-ghost">See the first edition</a>
-        <a href="#contact" class="btn btn-ghost">Contact organizers</a>
+      <div class="hero-photos">
+        <img src="images/edition1-photo1.jpg" alt="Presentation at the first edition of the workshop">
+        <img src="images/edition1-photo2.jpg" alt="Discussion during a paper session at the first edition">
+        <img src="images/edition1-photo3.jpg" alt="Speaker presenting research at the first edition">
       </div>
     </div>
   </section>
@@ -69,7 +77,7 @@ description: "An early career workshop bringing together political economy and p
     <div class="wrap">
       <span class="eyebrow">Scope</span>
       <h2>Topics we welcome</h2>
-      <p class="body-text">The workshop welcomes theoretical, empirical, and methodological contributions. Suggested themes below — edit freely to match this year's focus.</p>
+      <p class="body-text">The workshop welcomes theoretical, empirical, and methodological contributions.</p>
 
       <div class="theme-grid">
         <div class="theme-card">
@@ -94,8 +102,8 @@ description: "An early career workshop bringing together political economy and p
         </div>
         <div class="theme-card">
           <span class="num">05</span>
-          <h3>Experimental &amp; causal methods</h3>
-          <p>Field, survey, and lab experiments; identification strategies.</p>
+          <h3>Formal theory &amp; formal modelling</h3>
+          <p>Game-theoretic and formal approaches to political and economic behavior.</p>
         </div>
         <div class="theme-card">
           <span class="num">06</span>
@@ -267,52 +275,47 @@ description: "An early career workshop bringing together political economy and p
     <div class="wrap">
       <span class="eyebrow">Committee</span>
       <h2>Organizers</h2>
-      <p class="body-text">The second edition's committee is growing to reflect its three host institutions — three more organizers from UCL and Cambridge are joining soon.</p>
+      <p class="body-text">The second edition's committee is growing to reflect its three host institutions — two more organizers are joining soon.</p>
       <div class="card-grid">
         <div class="person-card">
           <img class="avatar-photo" src="images/marta-antonetti.jpeg" alt="Marta Antonetti">
           <h4>Marta Antonetti</h4>
-          <p class="placeholder">[Institution, department]</p>
+          <p>Government Department, LSE</p>
         </div>
         <div class="person-card">
           <img class="avatar-photo" src="images/elise-antoine.jpg" alt="Elise Antoine">
           <h4>Elise Antoine</h4>
-          <p class="placeholder">[Institution, department]</p>
+          <p>Bennett School of Public Policy, University of Cambridge</p>
         </div>
         <div class="person-card">
           <img class="avatar-photo" src="images/luis-cornago-bonal.jpeg" alt="Luis Cornago-Bonal">
           <h4>Luis Cornago-Bonal</h4>
-          <p class="placeholder">[Institution, department]</p>
+          <p>School of Public Policy, LSE</p>
         </div>
         <div class="person-card">
           <img class="avatar-photo" src="images/kun-heo.jpg" alt="Kun Heo">
           <h4>Kun Heo</h4>
-          <p class="placeholder">[Institution, department]</p>
+          <p>Government Department, LSE</p>
         </div>
         <div class="person-card">
           <img class="avatar-photo" src="images/leo-falabella.png" alt="Leo Falabella">
           <h4>Leo Falabella</h4>
-          <p class="placeholder">[Institution, department]</p>
-        </div>
-        <div class="person-card">
-          <div class="avatar">F</div>
-          <h4>Felipe Torres-Raposo</h4>
-          <p>UCL</p>
+          <p>Department of Political Economy, King's College London</p>
         </div>
         <div class="person-card">
           <img class="avatar-photo" src="images/Profile_2.jpeg" alt="Felipe Torres-Raposo">
-          <h4 class="placeholder">Felipe Torres-Raposo</h4>
-          <p class="placeholder">[UCL — Department of Political Science]</p>
+          <h4>Felipe Torres-Raposo</h4>
+          <p>UCL — Department of Political Science</p>
         </div>
         <div class="person-card">
           <div class="avatar">?</div>
-          <h4 class="placeholder">[Name]</h4>
-          <p class="placeholder">[Cambridge — Institution, department]</p>
+          <h4>TBA</h4>
+          <p>TBA</p>
         </div>
         <div class="person-card">
           <div class="avatar">?</div>
-          <h4 class="placeholder">[Name]</h4>
-          <p class="placeholder">[Institution, department]</p>
+          <h4>TBA</h4>
+          <p>TBA</p>
         </div>
       </div>
     </div>

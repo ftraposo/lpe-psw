@@ -134,6 +134,36 @@ a { color: inherit; }
 }
 .hero .wrap { position: relative; }
 
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: 1fr; }
+}
+
+.hero-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.hero-photos img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid var(--rule-dark);
+  border-radius: 3px;
+}
+.hero-photos img:first-child {
+  grid-column: 1 / -1;
+  height: 180px;
+}
+@media (max-width: 900px) {
+  .hero-photos { order: -1; }
+}
+
 .hero h1 {
   font-family: var(--font-display);
   font-weight: 600;
